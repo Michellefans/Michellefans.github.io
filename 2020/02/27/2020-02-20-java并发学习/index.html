@@ -5,13 +5,20 @@
   
   <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="01、并发第一步，创建一个线程通常，启动一个程序，就相当于起了一个进程。每个电脑都会运行很多程序，所以你会在进程管理器中看到很多进程。你会说，这不废话吗？ 不不不，在我刚学习编程的很长一段时间内，我都想当然地以为这些进程就是线程；但后来我知道不是那么回事儿。一个进程里，可能会有很多线程在运行，也可能只有一个。 main函数其实就是一个主线程。我们可以在这个主线程当中创建很多其他的线程。来看下面这段">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2020/02/27/2020-02-20-java并发学习/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="01、并发第一步，创建一个线程通常，启动一个程序，就相当于起了一个进程。每个电脑都会运行很多程序，所以你会在进程管理器中看到很多进程。你会说，这不废话吗？ 不不不，在我刚学习编程的很长一段时间内，我都想当然地以为这些进程就是线程；但后来我知道不是那么回事儿。一个进程里，可能会有很多线程在运行，也可能只有一个。 main函数其实就是一个主线程。我们可以在这个主线程当中创建很多其他的线程。来看下面这段">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2019/3/19/169941c679cde755?imageView2/0/w/1280/h/960/format/webp/ignore-error/1">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2019/3/19/169941c67a2f00c0?imageView2/0/w/1280/h/960/format/webp/ignore-error/1">
+<meta property="og:updated_time" content="2020-02-27T01:46:30.549Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="01、并发第一步，创建一个线程通常，启动一个程序，就相当于起了一个进程。每个电脑都会运行很多程序，所以你会在进程管理器中看到很多进程。你会说，这不废话吗？ 不不不，在我刚学习编程的很长一段时间内，我都想当然地以为这些进程就是线程；但后来我知道不是那么回事儿。一个进程里，可能会有很多线程在运行，也可能只有一个。 main函数其实就是一个主线程。我们可以在这个主线程当中创建很多其他的线程。来看下面这段">
+<meta name="twitter:image" content="https://user-gold-cdn.xitu.io/2019/3/19/169941c679cde755?imageView2/0/w/1280/h/960/format/webp/ignore-error/1">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -68,9 +75,7 @@
   </div>
 </div>
 
-        <section id="main">
-  
-    <article id="post-2020-02-20-java并发学习" class="wow slideInRight article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-2020-02-20-java并发学习" class="wow slideInRight article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/02/27/2020-02-20-java并发学习/" class="article-date">
   <time class="post-time" datetime="2020-02-27T01:46:18.984Z" itemprop="datePublished">
@@ -136,69 +141,21 @@
     </footer>
   </div>
   
-</article>
-
-
-
-
-  
-    <article id="post-hello-world" class="wow slideInRight article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/03/13/hello-world/" class="article-date">
-  <time class="post-time" datetime="2019-03-13T15:50:54.650Z" itemprop="datePublished">
-    <span class="post-month">3月</span><br>
-    <span class="post-day">13</span>
-  </time>
-</a>
-   
-  </div>
-  <div class="article-inner">
     
-    
-      <header class="article-header">
-        
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/03/13/hello-world/">Hello World</a>
-    </h1>
   
+    <a href="/2019/03/13/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一篇</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
 
-        <div>
-          
-          
-              
-
-          
-        </div>
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/03/13/hello-world/" data-id="ck744odyj0000rcuy7kyq9twe" class="article-share-link">分享</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
 
 
-
-
-  
 
 </section>
         
